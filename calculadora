@@ -1,0 +1,90 @@
+let num1 = Number(prompt("Digite um número"));
+let num2 = Number(prompt("Digite um segundo número"));
+
+// Soma
+function somar(num1, num2) {
+  alert("A soma é " + (num1 + num2));
+}
+
+// Subtração
+function subtrair(num1, num2) {
+  alert("A subtração é " + (num1 - num2));
+}
+
+// Multiplicação
+function multi(num1, num2) {
+  alert("A multiplicação é " + (num1 * num2));
+}
+
+// Divisão
+function divi(num1, num2) {
+  alert("A divisão é " + (num1 / num2));
+}
+
+// Potenciação
+function potencia(num1, num2) {
+  alert("A potenciação é " + (num1, num2));
+}
+
+// Raiz quadrada
+function raizquadrada(num1) {
+  alert("A raiz quadrada é " + (num1 ** (1/2)));
+}
+
+// Raiz Cubica
+function raizcubica(num1) {
+  alert("A raiz cubica é " + (num1 ** (1/3)));
+}
+
+// Módulo (resto da divisão)
+function modulo(num1, num2) {
+  alert("O módulo de por é " + (num1 % num2));
+}
+
+// Media
+function media(num1, num2) {
+  alert("A média dos dois números é " + ((num1 + num2) / 2));
+}
+
+// Porcentagem
+function porcentagem(num1, num2) {
+  alert(" é % de " + (num1 * (num2 / 100)));
+}
+
+// Graus para Radianos
+function grausr(num1) {
+  const pi = 3.14159;
+  alert(num1 + " graus em radianos é " + (num1 * pi / 180));
+}
+
+// Exponenciação 
+function exponenciacao(num1, num2) {
+  alert(num1 + " elevado a " + num2 + " é " + (num1 ** num2));
+}
+
+//Celsius para Fahrenheit
+function celsius(num1) {
+  alert(num1 + "graus Celsius é igual a " + (num1 * 9/5 + 32) + " graus Fahrenheit.");
+}
+
+//Fahrenheit para Celsius
+function fahrenheit(num1) {
+  alert(num1 + "graus Fahrenheit é igual a " + ((num1 - 32) * 5/9) + " graus Celsius.");
+}
+
+
+// Resultado
+somar(num1, num2);
+subtrair(num1, num2);
+multi(num1, num2);
+divi(num1, num2);
+potencia(num1, num2);
+raizquadrada(num1);
+raizcubica(num1);
+modulo(num1, num2);
+media(num1, num2);
+porcentagem(num1, num2);
+grausr(num1);
+exponenciacao(num1, num2);
+celsius(num1);
+fahrenheit(num1);
